@@ -130,7 +130,7 @@ export default function GeneratePassword(){
                         {`${password}`}
                     </div>
                     <div className='icons'>
-                        <i class="fas fa-redo" onClick={ async() => { var tmp = await genPassword(); setPassword(tmp)}}></i>
+                        <i class="fas fa-redo" onClick={ async() => { var tmp = await genPassword(); setPassword(tmp.password)}}></i>
                         <CopyToClipboard text={password} onCopy={() => alert('Password Copied')}>
                             <i class="fas fa-clipboard"></i>
                         </CopyToClipboard>
