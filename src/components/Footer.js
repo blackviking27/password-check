@@ -20,7 +20,7 @@ export default function Footer() {
                 <div style={{ display:'flex', justifyContent: 'space-between' }}>
                     <i class="fab fa-github fa-2x"></i>
                     <div style={{ padding: 8 }}>
-                        Source code available<a href='https://github.com/blackviking27'> here</a></div>
+                        Source code available<a href='https://github.com/blackviking27/password-check'> here</a></div>
                 </div> 
             </div>
         </motion.div>
