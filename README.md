@@ -2,7 +2,7 @@
 
 This project is created with
 <ul>
-  <li><React</li>  
+  <li>React </li>  
   <li>React Router dom</li>  
   <li>Framer Motion</li>  
 </ul>
