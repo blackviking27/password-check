@@ -1,0 +1,27 @@
+.footer{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    text-decoration: none;
+    padding-bottom: 15px;
+}
+
+.footer-line{
+    border-bottom: solid;
+    opacity: 0.5;
+    width: 95vw;
+    margin: auto;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.footer a{
+    text-decoration: none;
+    color:black;
+    transition: all 0.2s ease-in;
+}
+
+.footer a:hover{
+    color:white;
+    transition: all 0.2s ease-in;
+}

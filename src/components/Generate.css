@@ -1,0 +1,115 @@
+.gen-container{
+    display: flex;
+    justify-content: center;
+    margin:auto;
+}
+
+.gen{
+    background: white;
+    padding: 20px;
+    border-radius: 30px;
+    width: 50vw;
+}
+
+.gen-options{
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkbox-wrapper{
+    display: flex;
+    margin-right: 1vw;
+}
+
+.checkmark{
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-color: #ddd;
+    border-radius: 10px;
+    position: relative;
+    transition: background-color 0.4s;
+}
+
+.checkmark::after{
+    content: "";
+    position: absolute;
+    width: 8px;
+    height: 15px;
+    border-right: 5px solid #fff;
+    border-bottom: 5px solid #fff;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(40deg);
+    opacity: 0;
+    transition: opacity 0.4s;
+}
+
+/* For Check 1 */
+#check1:checked ~ .checkmark{
+    background-color: rgb(8, 197, 255);
+}
+
+#check1:checked ~ .checkmark::after{
+    opacity: 1;
+}
+
+/* For Check 2 */
+#check2:checked ~ .checkmark{
+    background-color: rgb(8, 197, 255);
+}
+
+#check2:checked ~ .checkmark::after{
+    opacity: 1;
+}
+
+/* For Check 3 */
+#check3:checked ~ .checkmark{
+    background-color: rgb(8, 197, 255);
+}
+
+#check3:checked ~ .checkmark::after{
+    opacity: 1;
+}
+
+/* For Check 4 */
+#check4:checked ~ .checkmark{
+    background-color: rgb(8, 197, 255);
+}
+
+#check4:checked ~ .checkmark::after{
+    opacity: 1;
+}
+
+.password-container{
+    /* background-color: red; */
+     display: flex;
+    flex-direction: column;
+    height: 6vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.icons{
+    display: flex;
+    justify-content: space-evenly;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.password-display{
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+
+}
+
+@media screen and (max-width: 1050px){
+    .gen-options{
+        flex-direction: column;
+    }
+    .checkbox-wrapper{
+        margin-top: 10px;
+    }
+}
