@@ -105,11 +105,18 @@
 
 }
 
-@media screen and (max-width: 1050px){
+@media screen and (max-width: 800px){
     .gen-options{
         flex-direction: column;
     }
     .checkbox-wrapper{
         margin-top: 10px;
     }
+    .gen-container{
+        font-size: small;
+    }
+    .password-container{
+        height: 6.8vh;
+    }
+
 }
