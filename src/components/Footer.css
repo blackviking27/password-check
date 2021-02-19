@@ -5,6 +5,10 @@
     text-decoration: none;
     padding-bottom: 15px;
 }
+.footer div {
+    display: flex;
+    justify-content: space-between;
+}
 
 .footer-line{
     border-bottom: solid;
@@ -17,11 +21,22 @@
 
 .footer a{
     text-decoration: none;
-    color:black;
+    color: whitesmoke;
     transition: all 0.2s ease-in;
 }
 
 .footer a:hover{
+    text-decoration: underline;
     color:white;
     transition: all 0.2s ease-in;
+}
+
+@media screen and (max-width: 500px) {
+    .footer {
+        flex-direction: column;
+    }
+    .footer div {
+        margin-top: 3px;
+        justify-content: center;
+    }
 }

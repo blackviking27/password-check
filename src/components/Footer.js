@@ -11,16 +11,16 @@ export default function Footer() {
         >
             <div className='footer-line'></div>
             <div className='footer'>
-                <div style={{ display:'flex', justifyContent:'space-between' }}>
+                <div>
                     <i class="fab fa-dev fa-2x"></i>
                     <div style={{ padding: 8}}>
-                        This project is created by <a href='https://github.com/blackviking27'>me</a>
+                        This project is created by &nbsp; <a href='https://github.com/blackviking27'> me</a>
                     </div>
                 </div>
-                <div style={{ display:'flex', justifyContent: 'space-between' }}>
+                <div>
                     <i class="fab fa-github fa-2x"></i>
                     <div style={{ padding: 8 }}>
-                        Source code available<a href='https://github.com/blackviking27/password-check'> here</a></div>
+                        Source code available &nbsp; <a href='https://github.com/blackviking27/password-check'> here </a></div>
                 </div> 
             </div>
         </motion.div>
