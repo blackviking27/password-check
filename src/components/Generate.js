@@ -52,7 +52,7 @@ async function generate(state){
         }else if(state.pwdLength <= 7){
             strength = 2
         }else if(state.pwdLength >= 15){
-            strength = 5
+            strength += 2
         }
     }
     
