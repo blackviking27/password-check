@@ -9,5 +9,8 @@
     left: 0;
     font-family: 'Rubik', sans-serif;
 }
-/* #00c6ff */
-/* #0072ff */
+@media screen and (max-width: 800px){
+    .App{
+        font-size: small;
+    }
+}
