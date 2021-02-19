@@ -39,7 +39,7 @@ async function generate(state){
         return Math.floor(Math.random() * ( max - min + 1)) + min;
     }
     
-    if(state.pwdLength != 0){
+    if(state.pwdLength != 0 && (state.isUpper || state.isLower || state.isNumber || state.isSymbol)){
         setUppercase(state.isUpper);
         setLowercase(state.isLower);
         setNumber(state.isNumber);
